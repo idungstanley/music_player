@@ -9,10 +9,10 @@ body{
     margin: 0;
     font-family: 'lato', sans-serif;
     background-image: linear-gradient(0deg, rgb(247,247,247) 23.8%, rgb(252, 221, 221) 92%);
-     display: flex ;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .music-container{
@@ -94,7 +94,7 @@ body{
     position:absolute;
     top: 0;
     left: 20px;
-    width: calc(100%-40px);
+    width: calc(100% - 40px);
     padding: 10px 10px 10px 150px;
     opacity: 0;
     transform: translateY(0%);
